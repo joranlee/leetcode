@@ -2,7 +2,7 @@ package q807;
 /*
  * 2018-08-18
  * 思路：寻找二维数组中每个元素所在的行数组和列数组中的最大值，并将该元素设为这两个最大值中较小的那一个。
- *      默认行列数相等,即n*n，如果是m*n，则grid.length获取行数，grid[0].length获取列数。
+ *     默认行列数相等,即n*n，如果是m*n，则grid.length获取行数，grid[0].length获取列数。
  */
 
 public class Solution {

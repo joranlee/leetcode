@@ -7,8 +7,8 @@ import java.util.Set;
 
 /**
  * @author TXX 2018-08-18
- *         思路：用map来存储字母和morse之间的映射，通过map.get获取字母转换morse的结果。将morse转换结果存储到一个set中，因为set中的元素不重复，故最后set中的元素数即是所需结果
- * 		       思路更新：用map来存储字母和morse之间的映射不是必要的，直接用每个word的每个字母-'a'作为索引去morseCode数组中寻找对应morse结果即可
+ * 思路：用map来存储字母和morse之间的映射，通过map.get获取字母转换morse的结果。将morse转换结果存储到一个set中，因为set中的元素不重复，故最后set中的元素数即是所需结果
+ * 思路更新：用map来存储字母和morse之间的映射不是必要的，直接用每个word的每个字母-'a'作为索引去morseCode数组中寻找对应morse结果即可
  */
 public class Solution {
 	public int uniqueMorseRepresentations(String[] words) {

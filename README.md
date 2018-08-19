@@ -1,3 +1,3 @@
 # leetcode
-solutions
-按照通过率降序来做
+做题记录，有的会总结discuss中的好解法
+
